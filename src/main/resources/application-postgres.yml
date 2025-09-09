@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://localhost:5438/refactoring_db
+    username: admin
+    password: root
+  flyway:
+    enabled: true
+    locations: classpath:db/migration

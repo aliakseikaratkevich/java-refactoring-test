@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: in_memory
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  validation:
+    enabled: true

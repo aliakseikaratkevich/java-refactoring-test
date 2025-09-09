@@ -1,0 +1,21 @@
+[
+  {
+    "name": "",
+    "email": "empty.name@example.com",
+    "roles": [
+      "USER"
+    ]
+  },
+  {
+    "name": "Invalid Email",
+    "email": "invalid-email",
+    "roles": [
+      "USER"
+    ]
+  },
+  {
+    "name": "Null Roles",
+    "email": "null.roles@example.com",
+    "roles": null
+  }
+]

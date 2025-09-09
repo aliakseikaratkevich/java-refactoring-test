@@ -1,0 +1,30 @@
+[
+  {
+    "name": "first_page",
+    "page": 0,
+    "size": 2,
+    "sortBy": "name",
+    "sortDirection": "ASC"
+  },
+  {
+    "name": "second_page",
+    "page": 1,
+    "size": 2,
+    "sortBy": "email",
+    "sortDirection": "DESC"
+  },
+  {
+    "name": "large_page",
+    "page": 0,
+    "size": 10,
+    "sortBy": "id",
+    "sortDirection": "ASC"
+  },
+  {
+    "name": "custom_sort",
+    "page": 0,
+    "size": 5,
+    "sortBy": "roles",
+    "sortDirection": "ASC"
+  }
+]
